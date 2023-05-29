@@ -1,0 +1,12 @@
+@mixin flexCenter() {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+header {
+    @include flexCenter();
+
+    background: $backgroundColour;
+    color: $textColour;
+}
